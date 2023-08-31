@@ -1,0 +1,28 @@
+version: "1"
+name: GastonFirstSnapIn
+description: "Gaston first Snap In"
+service_account:
+  display_name: DevRev Bot
+event-sources:
+  - name: devrev-event-source
+    description: Event source listening on DevRev events.
+    display_name: DevRev events listener
+    type: devrev-webhook
+    config:
+      event_types:
+        - work_updated
+snap_kit_actions:
+  - name: on_submit_snap_kit
+    description: Action to convert CSV to JSON
+    function: on_submit
+functions:
+  - name: on_work_creation
+    description: function to trigger on work creation
+  - name: on_submit
+    description: function after snap kit
+automations:
+  - name: handle-work-created-event
+    source: devrev-event-source
+    event_types:
+      - work_updated
+    function: on_work_creation

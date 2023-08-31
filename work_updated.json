@@ -1,0 +1,158 @@
+[
+    {
+       "payload":{
+          "id":"don:integration:dvrv-us-1:devo/1FGiBzra6:webhook/Jj0jRq6J:webhook_event/N3GmLpsVQ3M",
+          "timestamp":"2023-04-12T07:21:08.657534Z",
+          "type":"work_updated",
+          "unique_key":"ZG9uOmludGVncmF0aW9uOmR2cnYtdXMtMTpkZXZvLzFGR2lCenJhNjpldmVudF9zb3VyY2UvYjM3OGE3OWUtM2ZjOS00MGU3LTg2NTctNzcyNzY2MmYwMTdk",
+          "webhook_id":"don:integration:dvrv-us-1:devo/1FGiBzra6:webhook/Jj0jRq6J",
+          "work_updated":{
+             "old_work":{
+                "applies_to_part":{
+                   "display_id":"PROD-1",
+                   "id":"don:core:dvrv-us-1:devo/1FGiBzra6:product/1",
+                   "id_v1":"don:DEV-1FGiBzra6:product:1",
+                   "name":"DevRev-Back",
+                   "type":"product"
+                },
+                "created_by":{
+                   "display_handle":"Dhara Poptani",
+                   "display_id":"DEVU-5",
+                   "display_name":"Dhara Poptani",
+                   "email":"i-dhara.poptani@devrev.ai",
+                   "full_name":"Dhara Poptani",
+                   "id":"don:identity:dvrv-us-1:devo/1FGiBzra6:devu/5",
+                   "id_v1":"don:DEV-1FGiBzra6:dev_user:DEVU-5",
+                   "state":"active",
+                   "type":"dev_user"
+                },
+                "created_date":"2023-04-05T06:38:44.202Z",
+                "custom_fields":null,
+                "display_id":"TKT-141",
+                "id":"don:core:dvrv-us-1:devo/1FGiBzra6:ticket/141",
+                "id_v1":"don:DEV-1FGiBzra6:ticket:141",
+                "modified_by":{
+                   "display_handle":"i-gokul-ks",
+                   "display_id":"DEVU-4",
+                   "display_name":"i-gokul-ks",
+                   "email":"i-gokul.ks@devrev.ai",
+                   "full_name":"Gokul K S",
+                   "id":"don:identity:dvrv-us-1:devo/1FGiBzra6:devu/4",
+                   "id_v1":"don:DEV-1FGiBzra6:dev_user:DEVU-4",
+                   "state":"active",
+                   "type":"dev_user"
+                },
+                "modified_date":"2023-04-12T07:18:49.516Z",
+                "owned_by":[
+                   {
+                      "display_handle":"Dhara Poptani",
+                      "display_id":"DEVU-5",
+                      "display_name":"Dhara Poptani",
+                      "email":"i-dhara.poptani@devrev.ai",
+                      "full_name":"Dhara Poptani",
+                      "id":"don:identity:dvrv-us-1:devo/1FGiBzra6:devu/5",
+                      "id_v1":"don:DEV-1FGiBzra6:dev_user:DEVU-5",
+                      "state":"active",
+                      "type":"dev_user"
+                   }
+                ],
+                "severity":"high",
+                "stage":{
+                   "name":"awaiting_customer_response",
+                   "notes":"",
+                   "ordinal":4800
+                },
+                "state":"in_progress",
+                "stock_schema_fragment":"don:core:dvrv-us-1:stock_sf/297430",
+                "title":"test-final",
+                "type":"ticket"
+             },
+             "work":{
+                "applies_to_part":{
+                   "display_id":"PROD-1",
+                   "id":"don:core:dvrv-us-1:devo/1FGiBzra6:product/1",
+                   "id_v1":"don:DEV-1FGiBzra6:product:1",
+                   "name":"DevRev-Back",
+                   "type":"product"
+                },
+                "created_by":{
+                   "display_handle":"Dhara Poptani",
+                   "display_id":"DEVU-5",
+                   "display_name":"Dhara Poptani",
+                   "email":"i-dhara.poptani@devrev.ai",
+                   "full_name":"Dhara Poptani",
+                   "id":"don:identity:dvrv-us-1:devo/1FGiBzra6:devu/5",
+                   "id_v1":"don:DEV-1FGiBzra6:dev_user:DEVU-5",
+                   "state":"active",
+                   "type":"dev_user"
+                },
+                "created_date":"2023-04-05T06:38:44.202Z",
+                "custom_fields":null,
+                "display_id":"TKT-141",
+                "id":"don:core:dvrv-us-1:devo/1FGiBzra6:ticket/141",
+                "id_v1":"don:DEV-1FGiBzra6:ticket:141",
+                "modified_by":{
+                   "display_handle":"i-gokul-ks",
+                   "display_id":"DEVU-4",
+                   "display_name":"i-gokul-ks",
+                   "email":"i-gokul.ks@devrev.ai",
+                   "full_name":"Gokul K S",
+                   "id":"don:identity:dvrv-us-1:devo/1FGiBzra6:devu/4",
+                   "id_v1":"don:DEV-1FGiBzra6:dev_user:DEVU-4",
+                   "state":"active",
+                   "type":"dev_user"
+                },
+                "modified_date":"2023-04-12T07:20:45.608Z",
+                "owned_by":[
+                   {
+                      "display_handle":"Dhara Poptani",
+                      "display_id":"DEVU-5",
+                      "display_name":"Dhara Poptani",
+                      "email":"i-dhara.poptani@devrev.ai",
+                      "full_name":"Dhara Poptani",
+                      "id":"don:identity:dvrv-us-1:devo/1FGiBzra6:devu/5",
+                      "id_v1":"don:DEV-1FGiBzra6:dev_user:DEVU-5",
+                      "state":"active",
+                      "type":"dev_user"
+                   }
+                ],
+                "severity":"blocker",
+                "stage":{
+                   "name":"awaiting_customer_response",
+                   "notes":"",
+                   "ordinal":4800
+                },
+                "state":"in_progress",
+                "stock_schema_fragment":"don:core:dvrv-us-1:stock_sf/297430",
+                "title":"test-final",
+                "type":"ticket"
+             }
+          }
+       },
+       "context":{
+          "dev_oid":"don:identity:dvrv-us-1:devo/1FGiBzra6",
+          "automation_id":"don:integration:dvrv-us-1:devo/1FGiBzra6:automation/6a891a0b-662a-4d91-b4a9-e318ce7b9223",
+          "source_id":"don:integration:dvrv-us-1:devo/1FGiBzra6:automation/6a891a0b-662a-4d91-b4a9-e318ce7b9223",
+          "snap_in_id":"don:integration:dvrv-us-1:devo/1FGiBzra6:snap_in/f870e453-ebe5-4ff9-a9d7-1ba639044da0",
+          "snap_in_version_id":"don:integration:dvrv-us-1:devo/1FGiBzra6:snap_in_package/56684bbc-abce-47ac-82f9-e8e8740d9478:snap_in_version/c29dadae-7287-49d1-b57f-9f56cd4dbb75",
+          "secrets":null
+       },
+       "execution_metadata":{
+          "request_id":"",
+          "function_name":"notify_incident"
+       },
+       "input_data":{
+          "global_values":{
+             "dev_org_name":"devrev-back",
+             "slack_channel_id":"on-call-triage"
+          },
+          "event_sources":{
+             "devrev-webhook":"don:integration:dvrv-us-1:devo/1FGiBzra6:event_source/b378a79e-3fc9-40e7-8657-7727662f017d"
+          },
+          "keyrings":{
+             "devrev":"eyJhbGciOiJSUzI1NiIsImlzcyI6Imh0dHBzOi8vYXV0aC10b2tlbi5kZXYuZGV2cmV2LWVuZy5haS8iLCJraWQiOiJzdHNfa2lkX3JzYSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiamFudXMiXSwiYXpwIjoiZG9uOmlkZW50aXR5OmR2cnYtdXMtMTpkZXZvLzFGR2lCenJhNjpkZXZ1LzQiLCJleHAiOjE3NzM1NTEzODQsImh0dHA6Ly9kZXZyZXYuYWkvYXV0aDBfdXNlcl9pZCI6Imdvb2dsZS1vYXV0aDJ8MTAyNzUwMzkwODUwODAzMDM2MzI2IiwiaHR0cDovL2RldnJldi5haS9kZXZvX2RvbiI6ImRvbjppZGVudGl0eTpkdnJ2LXVzLTE6ZGV2by8xRkdpQnpyYTYiLCJodHRwOi8vZGV2cmV2LmFpL2Rldm9pZCI6IkRFVi0xRkdpQnpyYTYiLCJodHRwOi8vZGV2cmV2LmFpL2RldnVpZCI6IkRFVlUtNCIsImh0dHA6Ly9kZXZyZXYuYWkvZGlzcGxheW5hbWUiOiJpLWdva3VsLWtzIiwiaHR0cDovL2RldnJldi5haS9lbWFpbCI6ImktZ29rdWwua3NAZGV2cmV2LmFpIiwiaHR0cDovL2RldnJldi5haS9mdWxsbmFtZSI6Ikdva3VsIEsgUyIsImh0dHA6Ly9kZXZyZXYuYWkvdG9rZW50eXBlIjoidXJuOmRldnJldjpwYXJhbXM6b2F1dGg6dG9rZW4tdHlwZTpwYXQiLCJpYXQiOjE2Nzg5NDMzODQsImlzcyI6Imh0dHBzOi8vYXV0aC10b2tlbi5kZXYuZGV2cmV2LWVuZy5haS8iLCJqdGkiOiJkb246aWRlbnRpdHk6ZHZydi11cy0xOmRldm8vMUZHaUJ6cmE2OnRva2VuL2llYzI0SWlDIiwib3JnX2lkIjoib3JnX0UxTU80S2xRd29jRmVpMWEiLCJzdWIiOiJkb246aWRlbnRpdHk6ZHZydi11cy0xOmRldm8vMUZHaUJ6cmE2OmRldnUvNCJ9.h_FARr3eur-83t6Nh7goNjavK623s4irPxlY1_JtGMIrJefukMnY_SbMk11aQiFxnYKJBbOihRyKPOmRuaYpxc7lb67_gbYsjYTnTN19JfBRLhsR2dsI6Gfb9_in_sW5qhcKn58QA9Q2YHtn0uOL5IxHMS92M5PQOjp3fds4LP5T7KYtZbWTeVywBQr7LWE5pv5Pc6YRjMvH1dph3OgdtYuuRQWMLp_uND7kvUoWdV46xQ4DRncsqbrFxtRkpDqoF2Lk8CsD5kYiLZwNtMRWAMSA4Sre7SOru4br28in_bz9Zo8pcsWcA713JdC5OEtp8rKq1SEdpI_tLJH-SWW0kQ",
+             "slack_app_connection":"xoxb-4952420177459-4954395340454-ZlKNdSgz3Engd0tFxZA5x4JF"
+          }
+       }
+    }
+ ]
